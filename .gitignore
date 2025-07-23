@@ -37,3 +37,5 @@ out/
 ### VS Code ###
 .vscode/
 mail.zip
+mail/tokens/StoredCredential
+mail/src/main/resources/credentials.json
