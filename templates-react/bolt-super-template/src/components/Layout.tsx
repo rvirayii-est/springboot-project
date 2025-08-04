@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Users, Clock, Plus } from 'lucide-react';
+import { Home, Users, Clock, Plus, ShoppingCart } from 'lucide-react';
 import Logo from './Logo';
 import ThemeToggle from './ThemeToggle';
 
@@ -15,6 +15,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onTabChange, onNew
     { id: 'home' as const, label: 'Today', icon: Home },
     { id: 'contacts' as const, label: 'People', icon: Users },
     { id: 'timeline' as const, label: 'Memory', icon: Clock },
+    { id: 'orders' as const, label: 'Orders', icon: ShoppingCart },
   ];
 
   return (
@@ -26,8 +27,8 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onTabChange, onNew
             <div className="flex items-center space-x-3">
               <Logo className="w-10 h-10" />
               <div>
-                <h1 className="text-xl font-semibold text-gray-900 dark:text-white">Connections</h1>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Your personal relationship journal</p>
+                <h1 className="text-xl font-semibold text-gray-900 dark:text-white">Cleaar Oaasis Water Refilling Station</h1>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Your personal business application</p>
               </div>
             </div>
             
