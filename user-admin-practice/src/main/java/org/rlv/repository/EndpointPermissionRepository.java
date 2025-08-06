@@ -1,5 +1,6 @@
 package org.rlv.repository;
 
+import org.rlv.entity.EndpointPermission;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

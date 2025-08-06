@@ -70,7 +70,8 @@ public class JwtService {
     }
 
     private Key getSigningKey() {
-        byte keyBytes = Decoders.BASE64.decode(secretKey);
+        // This is the corrected line
+        byte[] keyBytes = Decoders.BASE64.decode(secretKey);
         return Keys.hmacShaKeyFor(keyBytes);
     }
 }

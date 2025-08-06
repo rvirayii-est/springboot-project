@@ -1,15 +1,17 @@
 package org.rlv.controller;
 
 import lombok.RequiredArgsConstructor;
+
+import org.rlv.security.DatabaseAuthorizationManager;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/management")
-@RequiredArgsConstructor
 public class ManagementController {
 
     private final DatabaseAuthorizationManager authorizationManager;
@@ -32,6 +34,4 @@ public class ManagementController {
         authorizationManager.loadPermissions();
         return "Endpoint permissions cache has been refreshed.";
     }
-} {
-
-}
+} 
