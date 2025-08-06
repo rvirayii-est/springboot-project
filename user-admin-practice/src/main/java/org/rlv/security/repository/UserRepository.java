@@ -1,6 +1,6 @@
-package org.rlv.repository;
+package org.rlv.security.repository;
 
-import org.rlv.entity.User;
+import org.rlv.security.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

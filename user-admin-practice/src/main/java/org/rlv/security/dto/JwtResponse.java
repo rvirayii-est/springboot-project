@@ -1,4 +1,4 @@
-package org.rlv.dto;
+package org.rlv.security.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

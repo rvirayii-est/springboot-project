@@ -2,8 +2,8 @@ package org.rlv.security;
 
 import jakarta.servlet.http.HttpServletRequest;
 
-import org.rlv.entity.EndpointPermission;
-import org.rlv.repository.EndpointPermissionRepository;
+import org.rlv.security.entity.EndpointPermission;
+import org.rlv.security.repository.EndpointPermissionRepository;
 import org.springframework.security.authorization.AuthorizationDecision;
 import org.springframework.security.authorization.AuthorizationManager;
 import org.springframework.security.core.Authentication;

@@ -1,8 +1,8 @@
 package org.rlv.controller;
 
-import org.rlv.dto.AuthRequest;
-import org.rlv.dto.JwtResponse;
 import org.rlv.security.JwtService;
+import org.rlv.security.dto.AuthRequest;
+import org.rlv.security.dto.JwtResponse;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

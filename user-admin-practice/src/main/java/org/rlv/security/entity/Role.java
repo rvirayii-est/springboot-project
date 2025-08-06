@@ -1,4 +1,4 @@
-package org.rlv.entity;
+package org.rlv.security.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
